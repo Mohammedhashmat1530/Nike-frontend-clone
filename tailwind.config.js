@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'coral-red': '#FF4040', // Define your desired coral-red color
+      },
+    },
   },
   plugins: [],
 }
